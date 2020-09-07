@@ -39,3 +39,7 @@ LoginBuilder.login('username', 'password').then(resp => {
     setToken(token)
 })
 ```
+
+## 其他
+更多使用方式自己看下就知道了， 欢迎来完善。
+来改源码前请务必熟知apijson的语法！
