@@ -5,8 +5,8 @@ import {config, setToken} from "./utils/request";
 import {reverseMerge} from "./utils";
 
 const install = function (Vue, opts = {}) {
-    if (opts.axios) {
-        reverseMerge(config, opts.axios)
+    if (opts) {
+        reverseMerge(config, opts)
     }
 }
 
